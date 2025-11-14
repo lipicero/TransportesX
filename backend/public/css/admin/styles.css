@@ -1,0 +1,6 @@
+.admin-imagen img {
+  max-width: 100px !important;
+  height: auto !important;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}

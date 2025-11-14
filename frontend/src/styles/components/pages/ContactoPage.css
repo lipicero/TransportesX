@@ -1,0 +1,77 @@
+.contacto {
+  display: flex;
+  gap: 32px;
+}
+.contacto div{
+  width: 100%;
+}
+.datos p{
+  font-size: 14px;
+}
+.datos ul {
+  list-style: none;
+  padding-left: 0;
+}
+.datos ul li{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.datos ul li::before {
+  content: "• ";
+  color: #2e64a1;
+  font-weight: bold;
+}
+
+.formulario p {
+  display: flex;
+  margin-bottom: 12px;
+}
+.formulario p label{
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.formulario p:nth-child(4){
+  align-items: start;
+}
+
+.formulario textarea{
+  resize: none;
+  height: 150px;
+}
+
+.formulario .acciones {
+  margin-left: 80px;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+.formulario input[type="submit"] {
+  background: #6da9ed;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  color: white;
+  font-size: 14px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #2e64a1;
+}
