@@ -15,7 +15,7 @@ logs/
 Thumbs.db
 
 # Env and secrets
-*.env
+# .env is included for demo purposes
 .env.local
 .env.*.local
 
